@@ -1,0 +1,111 @@
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/rbhog/.config/discordcanary/0.0.85/modules
+[Modules] Module installed file path: /home/rbhog/.config/discordcanary/0.0.85/modules/installed.json
+[Modules] Module download path: /home/rbhog/.config/discordcanary/0.0.85/modules/pending
+[Modules] Bootstrapping...
+[Modules] Installing discord_desktop_core@0 from /opt/discord-canary/resources/bootstrap/discord_desktop_core.zip
+[Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord-canary/resources/bootstrap/discord_desktop_core.zip'
+[Modules] Installing discord_erlpack@0 from /opt/discord-canary/resources/bootstrap/discord_erlpack.zip
+[Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord-canary/resources/bootstrap/discord_erlpack.zip'
+[Modules] Installing discord_spellcheck@0 from /opt/discord-canary/resources/bootstrap/discord_spellcheck.zip
+[Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord-canary/resources/bootstrap/discord_spellcheck.zip'
+[Modules] Installing discord_utils@0 from /opt/discord-canary/resources/bootstrap/discord_utils.zip
+[Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord-canary/resources/bootstrap/discord_utils.zip'
+[Modules] Installing discord_voice@0 from /opt/discord-canary/resources/bootstrap/discord_voice.zip
+[Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord-canary/resources/bootstrap/discord_voice.zip'
+[Modules] Installing discord_zstd@0 from /opt/discord-canary/resources/bootstrap/discord_zstd.zip
+[Modules] Failed installing discord_zstd@0: Error: ENOENT: no such file or directory, open '/opt/discord-canary/resources/bootstrap/discord_zstd.zip'
+[Modules] Finished module installations. [success: 0] [failure: 6]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/canary/versions.json
+[Modules] Module update available: discord_desktop_core@14 [installed: 0]
+[Modules] Module update available: discord_erlpack@14 [installed: 0]
+[Modules] Module update available: discord_spellcheck@14 [installed: 0]
+[Modules] Module update available: discord_utils@14 [installed: 0]
+[Modules] Module update available: discord_voice@14 [installed: 0]
+[Modules] Module update available: discord_zstd@14 [installed: 0]
+[Modules] Fetching discord_desktop_core@14 from https://discordapp.com/api/modules/canary/discord_desktop_core/14
+[Modules] Streaming discord_desktop_core@14 [1514313 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_desktop_core-14.zip
+[Modules] Fetching discord_erlpack@14 from https://discordapp.com/api/modules/canary/discord_erlpack/14
+[Modules] Streaming discord_erlpack@14 [1852144 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_erlpack-14.zip
+[Modules] Fetching discord_spellcheck@14 from https://discordapp.com/api/modules/canary/discord_spellcheck/14
+[Modules] Streaming discord_spellcheck@14 [10208879 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_spellcheck-14.zip
+[Modules] Fetching discord_utils@14 from https://discordapp.com/api/modules/canary/discord_utils/14
+[Modules] Streaming discord_utils@14 [2619125 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_utils-14.zip
+[Modules] Fetching discord_voice@14 from https://discordapp.com/api/modules/canary/discord_voice/14
+[Modules] Streaming discord_voice@14 [11340703 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_voice-14.zip
+[Modules] Fetching discord_zstd@14 from https://discordapp.com/api/modules/canary/discord_zstd/14
+[Modules] Streaming discord_zstd@14 [739244 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_zstd-14.zip
+[Modules] Finished module downloads. [success: 6] [failure: 0]
+[Modules] Relaunching to install module updates...
+[Modules] Modules initializing
+[Modules] Distribution: remote
+[Modules] Host updates: enabled
+[Modules] Module updates: enabled
+[Modules] Module install path: /home/rbhog/.config/discordcanary/0.0.85/modules
+[Modules] Module installed file path: /home/rbhog/.config/discordcanary/0.0.85/modules/installed.json
+[Modules] Module download path: /home/rbhog/.config/discordcanary/0.0.85/modules/pending
+[Modules] Installing updates...
+[Modules] Installing discord_desktop_core@14 from /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_desktop_core-14.zip
+[Modules] Installing discord_erlpack@14 from /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_erlpack-14.zip
+[Modules] Installing discord_spellcheck@14 from /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_spellcheck-14.zip
+[Modules] Installing discord_utils@14 from /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_utils-14.zip
+[Modules] Installing discord_voice@14 from /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_voice-14.zip
+[Modules] Installing discord_zstd@14 from /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_zstd-14.zip
+[Modules] Finished module installations. [success: 6] [failure: 0]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Starting to install discord_game_utils...
+[Modules] Fetching discord_game_utils@14 from https://discordapp.com/api/modules/canary/discord_game_utils/14
+[Modules] Streaming discord_game_utils@14 [2613792 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_game_utils-14.zip
+[Modules] Finished module downloads. [success: 1] [failure: 0]
+[Modules] Installing discord_game_utils@14 from /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_game_utils-14.zip
+[Modules] Finished module installations. [success: 1] [failure: 0]
+[Modules] Starting to install discord_rpc...
+[Modules] Fetching discord_rpc@14 from https://discordapp.com/api/modules/canary/discord_rpc/14
+[Modules] Streaming discord_rpc@14 [143845 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_rpc-14.zip
+[Modules] Finished module downloads. [success: 1] [failure: 0]
+[Modules] Installing discord_rpc@14 from /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_rpc-14.zip
+[Modules] Finished module installations. [success: 1] [failure: 0]
+[Modules] Starting to install discord_media...
+[Modules] Fetching discord_media@0 from https://discordapp.com/api/modules/canary/discord_media/0
+[Modules] Streaming discord_media@0 [252 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_media-0.zip
+[Modules] Finished module downloads. [success: 0] [failure: 1]
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/canary/versions.json
+[Modules] No module updates available.
+[Modules] Checking for host updates.
+[Modules] Host is up to date.
+[Modules] Checking for module updates at https://discordapp.com/api/modules/canary/versions.json
+[Modules] Module update available: discord_desktop_core@15 [installed: 14]
+[Modules] Module update available: discord_erlpack@15 [installed: 14]
+[Modules] Module update available: discord_spellcheck@15 [installed: 14]
+[Modules] Module update available: discord_utils@15 [installed: 14]
+[Modules] Module update available: discord_voice@15 [installed: 14]
+[Modules] Module update available: discord_zstd@15 [installed: 14]
+[Modules] Module update available: discord_game_utils@15 [installed: 14]
+[Modules] Module update available: discord_rpc@15 [installed: 14]
+[Modules] Fetching discord_desktop_core@15 from https://discordapp.com/api/modules/canary/discord_desktop_core/15
+[Modules] Streaming discord_desktop_core@15 [1514313 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_desktop_core-15.zip
+[Modules] Fetching discord_erlpack@15 from https://discordapp.com/api/modules/canary/discord_erlpack/15
+[Modules] Streaming discord_erlpack@15 [1852144 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_erlpack-15.zip
+[Modules] Fetching discord_spellcheck@15 from https://discordapp.com/api/modules/canary/discord_spellcheck/15
+[Modules] Streaming discord_spellcheck@15 [10208879 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_spellcheck-15.zip
+[Modules] Fetching discord_utils@15 from https://discordapp.com/api/modules/canary/discord_utils/15
+[Modules] Streaming discord_utils@15 [2619125 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_utils-15.zip
+[Modules] Fetching discord_voice@15 from https://discordapp.com/api/modules/canary/discord_voice/15
+[Modules] Streaming discord_voice@15 [11340597 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_voice-15.zip
+[Modules] Fetching discord_zstd@15 from https://discordapp.com/api/modules/canary/discord_zstd/15
+[Modules] Streaming discord_zstd@15 [739244 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_zstd-15.zip
+[Modules] Fetching discord_game_utils@15 from https://discordapp.com/api/modules/canary/discord_game_utils/15
+[Modules] Streaming discord_game_utils@15 [2613792 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_game_utils-15.zip
+[Modules] Fetching discord_rpc@15 from https://discordapp.com/api/modules/canary/discord_rpc/15
+[Modules] Streaming discord_rpc@15 [143845 bytes] to /home/rbhog/.config/discordcanary/0.0.85/modules/pending/discord_rpc-15.zip
+[Modules] Finished module downloads. [success: 8] [failure: 0]

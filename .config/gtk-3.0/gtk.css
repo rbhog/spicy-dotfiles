@@ -1,0 +1,10 @@
+.window-frame, .windowframe:backdrop {
+  box-shadow: none;
+  border-style: none;
+  margin: 0;
+  border-radius: 0.5;
+}
+
+.titlebar {
+  border-radius: 0.5;
+}
