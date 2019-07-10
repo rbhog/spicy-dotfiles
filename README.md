@@ -3,7 +3,7 @@ my dotfiles... (please redirect yourself to the dotfiles of aidangoettsch and cf
 
 
 ## Reminder to myself and those who stumble upon this of what I needed to install
-- i3
+- resloved fork of i3-gaps <3
 - compton
 - polybar
 - rofi
@@ -13,5 +13,8 @@ my dotfiles... (please redirect yourself to the dotfiles of aidangoettsch and cf
 - neofetch
 - powerline fonts
 - paper icon font
-- font awesome
+- font awesome 5
 - fish
+- pipes.sh
+
+Hyperlinks for each of these will be added at some point
