@@ -31,10 +31,9 @@ vnoremap > >gv
 " Allow using the repeat operator with a visual selection (!)
 " http://stackoverflow.com/a/8064607/127816
 vnoremap . :normal .<CR>
-syntax on
-set t_Co=256
+
 colorscheme onedark
-filetype plugin indent on
+
 autocmd BufEnter * lcd %:p:h
 
 filetype plugin indent on
@@ -42,7 +41,6 @@ filetype plugin indent on
 set undodir=~/.config/nvim/undodir
 
 call plug#begin()
-colorscheme onedark
 
 Plug 'vim-scripts/Vimball'
 Plug 'godlygeek/tabular'
@@ -55,7 +53,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'groenewege/vim-less'
 Plug 'tpope/vim-markdown'
 Plug 'vim-scripts/nginx.vim'
-Plug 'Valloric/YouCompleteMe'
+Plug 'Valloric/YouCompleteMe', { 'do': './install.py'}
 Plug 'michaeljsmith/vim-indent-object'
 Plug 'vim-syntastic/syntastic'
 Plug 'Shougo/neocomplcache.vim'
@@ -71,7 +69,7 @@ Plug 'vim-scripts/nginx.vim'
 Plug 'leafgarland/typescript-vim'
 Plug 'Quramy/tsuquyomi'
 Plug 'Shougo/vimproc.vim'
-Plug 'https://github.com/joshdick/onedark.vim.git'
+
 call plug#end()
 
 let g:javascript_plugin_jsdoc           = 1
@@ -98,6 +96,7 @@ au BufRead,BufNewFile *.nginx set ft=nginx
 au BufRead,BufNewFile */etc/nginx/* set ft=nginx
 au BufRead,BufNewFile */usr/local/nginx/conf/* set ft=nginx
 au BufRead,BufNewFile nginx.conf set ft=nginx
+au VimEnter * NERDTreeToggle
 
-set mouse=a
-set mousehide
+set mouse=a                 " Automatically enable mouse usage
+set mousehide               " Hide the mouse cursor while typing
